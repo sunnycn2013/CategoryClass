@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MainViewController : UIViewController
+@interface MainViewController : UIViewController{
+    UITableView *_tableView;
+    NSMutableArray *_dataArray;
+}
 
 @end
