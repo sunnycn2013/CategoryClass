@@ -7,6 +7,5 @@
 # Pods/
 
 
-!/CategoryClass.xcodeproj
-!/CategoryClassTests
+!HttpRequest.h
 
