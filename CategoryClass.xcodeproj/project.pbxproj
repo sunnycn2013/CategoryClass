@@ -22,6 +22,7 @@
 		8404CAC519A37B6C00B97E33 /* DateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8404CAC419A37B6C00B97E33 /* DateUtil.m */; };
 		8404CAC819A37CBE00B97E33 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8404CAC719A37CBE00B97E33 /* MainViewController.m */; };
 		846C86A719AC66280032965A /* HttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 846C86A619AC66280032965A /* HttpRequest.m */; };
+		846C86AB19AC69280032965A /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 846C86AA19AC69280032965A /* LoginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		8404CAC719A37CBE00B97E33 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		846C86A519AC66280032965A /* HttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpRequest.h; sourceTree = "<group>"; };
 		846C86A619AC66280032965A /* HttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpRequest.m; sourceTree = "<group>"; };
+		846C86A919AC69280032965A /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		846C86AA19AC69280032965A /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +119,7 @@
 		8404CA9A19A37B5400B97E33 /* CategoryClass */ = {
 			isa = PBXGroup;
 			children = (
+				846C86A819AC69130032965A /* login */,
 				846C86A419AC66280032965A /* http */,
 				8404CAC319A37B6C00B97E33 /* DateUtil.h */,
 				8404CAC419A37B6C00B97E33 /* DateUtil.m */,
@@ -165,6 +169,15 @@
 				846C86A619AC66280032965A /* HttpRequest.m */,
 			);
 			path = http;
+			sourceTree = SOURCE_ROOT;
+		};
+		846C86A819AC69130032965A /* login */ = {
+			isa = PBXGroup;
+			children = (
+				846C86A919AC69280032965A /* LoginViewController.h */,
+				846C86AA19AC69280032965A /* LoginViewController.m */,
+			);
+			path = login;
 			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
@@ -264,6 +277,7 @@
 			files = (
 				8404CAC519A37B6C00B97E33 /* DateUtil.m in Sources */,
 				8404CAA519A37B5400B97E33 /* AppDelegate.m in Sources */,
+				846C86AB19AC69280032965A /* LoginViewController.m in Sources */,
 				8404CAA119A37B5400B97E33 /* main.m in Sources */,
 				846C86A719AC66280032965A /* HttpRequest.m in Sources */,
 				8404CAC819A37CBE00B97E33 /* MainViewController.m in Sources */,

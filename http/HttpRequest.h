@@ -12,6 +12,8 @@
     /**
      *  //hello world
      */
+    
+    NSMutableArray *_dataArray;
 }
 
 @end
