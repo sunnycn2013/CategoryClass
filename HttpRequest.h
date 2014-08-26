@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-@interface HttpRequest : NSObject
+@interface HttpRequest : NSObject{
+    NSMutableArray *_dataArray;
+}
 
 @end
