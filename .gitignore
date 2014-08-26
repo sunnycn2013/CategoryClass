@@ -6,3 +6,7 @@
 #
 # Pods/
 
+
+!/CategoryClass.xcodeproj
+!/CategoryClassTests
+
