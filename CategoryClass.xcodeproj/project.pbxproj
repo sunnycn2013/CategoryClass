@@ -21,7 +21,7 @@
 		8404CABA19A37B5400B97E33 /* CategoryClassTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8404CAB919A37B5400B97E33 /* CategoryClassTests.m */; };
 		8404CAC519A37B6C00B97E33 /* DateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8404CAC419A37B6C00B97E33 /* DateUtil.m */; };
 		8404CAC819A37CBE00B97E33 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8404CAC719A37CBE00B97E33 /* MainViewController.m */; };
-		846C86A319AC64700032965A /* HttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 846C86A219AC64700032965A /* HttpRequest.m */; };
+		846C86A719AC66280032965A /* HttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 846C86A619AC66280032965A /* HttpRequest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,8 +55,8 @@
 		8404CAC419A37B6C00B97E33 /* DateUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateUtil.m; sourceTree = "<group>"; };
 		8404CAC619A37CBE00B97E33 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		8404CAC719A37CBE00B97E33 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		846C86A119AC64700032965A /* HttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpRequest.h; sourceTree = "<group>"; };
-		846C86A219AC64700032965A /* HttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpRequest.m; sourceTree = "<group>"; };
+		846C86A519AC66280032965A /* HttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpRequest.h; sourceTree = "<group>"; };
+		846C86A619AC66280032965A /* HttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpRequest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,7 +116,7 @@
 		8404CA9A19A37B5400B97E33 /* CategoryClass */ = {
 			isa = PBXGroup;
 			children = (
-				846C86A019AC64350032965A /* staticClass */,
+				846C86A419AC66280032965A /* http */,
 				8404CAC319A37B6C00B97E33 /* DateUtil.h */,
 				8404CAC419A37B6C00B97E33 /* DateUtil.m */,
 				8404CAA319A37B5400B97E33 /* AppDelegate.h */,
@@ -158,15 +158,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		846C86A019AC64350032965A /* staticClass */ = {
+		846C86A419AC66280032965A /* http */ = {
 			isa = PBXGroup;
 			children = (
-				846C86A119AC64700032965A /* HttpRequest.h */,
-				846C86A219AC64700032965A /* HttpRequest.m */,
+				846C86A519AC66280032965A /* HttpRequest.h */,
+				846C86A619AC66280032965A /* HttpRequest.m */,
 			);
-			name = staticClass;
-			path = ..;
-			sourceTree = "<group>";
+			path = http;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -266,7 +265,7 @@
 				8404CAC519A37B6C00B97E33 /* DateUtil.m in Sources */,
 				8404CAA519A37B5400B97E33 /* AppDelegate.m in Sources */,
 				8404CAA119A37B5400B97E33 /* main.m in Sources */,
-				846C86A319AC64700032965A /* HttpRequest.m in Sources */,
+				846C86A719AC66280032965A /* HttpRequest.m in Sources */,
 				8404CAC819A37CBE00B97E33 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
